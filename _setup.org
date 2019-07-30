@@ -1,0 +1,19 @@
+#+AUTHOR: Edward R. Minnix III
+#+EMAIL: egregius313@gmail.com
+#+LaTeX_CLASS: moderncv
+#+OPTIONS: H:nil num:nil toc:nil author:nil date:nil
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LaTeX_HEADER: \usepackage[scale=0.8,margin=0.65in]{geometry}
+#+LaTeX_HEADER: \moderncvstyle{classic}
+#+LaTeX_HEADER: \moderncvcolor{burgundy}
+#+LaTeX_HEADER: \name{Edward}{Minnix III}
+
+#+LaTeX_HEADER: \email{egregius313@gmail.com}
+#+LaTeX_HEADER: \phone[mobile]{1-609-335-3008}
+#+LaTeX_HEADER: \homepage{https://ed.minni.xyz}
+#+LaTeX_HEADER: \social[github]{egregius313}
+#+LaTeX_HEADER: \social[linkedin]{erm3}
+
+#+MACRO: cvitem $\cvitem{$1}{$2}$
+#+MACRO: begin_cventry @@latex:\cventry{$1}{$2}{$3}{$4, $5}{}{@@
+#+MACRO: end_cventry @@latex:}@@

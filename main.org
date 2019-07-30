@@ -1,0 +1,110 @@
+#+TITLE: Cybersecurity Professional $\cdotp$ Software Developer
+#+SETUPFILE: _setup.org
+#+LaTeX_HEADER: \moderncvcolor{blue}
+
+
+* Objective
+
+#+BEGIN_EXPORT latex
+\cvline{}{Seeking a position in the fields of Software Development,
+  Cybersecurity, or DevSecOps.}
+#+END_EXPORT
+
+* Education
+
+#+BEGIN_EXPORT latex
+\cventry{2019 -- 2021}{M.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+}
+\cventry{2016 -- 2020}{B.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+    \begin{itemize}
+    \item{GPA -- 3.79, Dean's List since Fall 2016.}
+    \item{Member of Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines}
+    \end{itemize}
+}
+#+END_EXPORT
+
+* Work Experience
+
+#+BEGIN_EXPORT latex
+\cventry{1/2019 -- Present}{Assistant to the Chief Information Security Officer}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+   \begin{itemize}
+   \item{Research and compile information to aid in process of policy
+     writing}
+   \item{Explore and evaluate business options for the Division of
+     Information Technology}
+   \item{Serve as a proxy between students and Stevens IT in order to
+     find and mitigate security and privacy issues in the university’s
+     digital infrastructure}
+   \end{itemize}
+}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\cventry{8/2017 -- Present}{Course Assistant}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+  \begin{itemize}
+  \item{CS 135 (Discrete Structures), CS 334 (Automata and Computation), CS 496 (Programming Languages)}
+  \item{Grade assignments and exams}
+  \item{Conduct weekly office hours}
+  \item{Modify and incorporate an automated testing system for weekly programming assignments}
+  \end{itemize}
+}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\cventry{5/2019 -- 8/2019}{DevOps Intern}{Unisys}{Malvern, PA}{}{
+   \begin{itemize}
+     \item{Modified and create extensions to existing infrastructure
+       tooling using Chef}
+     \item{Created a system for virtual machines to send system
+       telemetry to monitoring servers}
+     \item{Developed a web-based interface for monitoring the status of
+       nodes}
+   \end{itemize}
+}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\cventry{5/2018 -- 8/2018}{Software Development Intern}{Unisys}{Blue Bell, PA}{}{
+   \begin{itemize}
+   \item{Worked on a chatbot to replace usage of internal IT service-desk}
+   \item{Used the Microsoft Bot Framework and Azure tools}
+   \item{Helped configure Azure Application Insights for better monitoring}
+   \item{Added speech recognition to the desktop and Android web pages}
+   \item{Added a system to automatically generate release notes from the source code’s changelog}
+   \end{itemize}
+}
+#+END_EXPORT
+
+# Stevens Institute of Technology, Hoboken, NJ
+#             Course assistant (CS 135, Discrete Structures; CS 334, Automata and Computation)      08/2017-Present
+
+#             Unisys, Blue Bell, PA
+#             Software Developer Intern                                05/2018-08/2018
+
+* Leadership Experience
+
+#+BEGIN_EXPORT latex
+\cventry{08/2018 -- Present}{President}{Stevens Cyber Defense Team}{Hoboken, NJ}{}{
+  \begin{itemize}
+  \item{Lead cyber security related events such as Capture the Flag (CTF) competitions}
+  \item{Organize on-campus and online events for the club}
+  \end{itemize}
+}
+#+END_EXPORT
+
+
+# SITTV, Hoboken, NJ
+#             Systems Administrator                                09/2017-08/2018
+# Provide server maintenance
+# Configured a Raspberry Pi for use as a broadcasting device for on-campus televisions
+
+# ACTIVITIES        Collegiate Cyber Defense Competition, Stevens Computer Science Club, Stack Overflow contributor
+
+* Skills
+
+{{{cvitem(Languages, Python\, C\#\, Javascript/Typescript\, Bash\, C\, Haskell\, F\#\, OCaml\, Java\, Clojure\, SQL)}}}
+{{{cvitem(Operating Systems, Linux\, macOS\, Windows)}}}
+{{{cvitem(Cloud Platforms, Azure)}}}
+{{{cvitem(Software, Git\, Chef\, ASP.NET\, Microsoft Bot Framework)}}}
+
+# US Citizen

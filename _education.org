@@ -1,0 +1,12 @@
+* Education
+
+#+BEGIN_EXPORT latex
+\cventry{2019 -- 2021}{M.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+}
+\cventry{2016 -- 2020}{B.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+    \begin{itemize}
+    \item{GPA -- 3.79, Dean's List since Fall 2016.}
+    \item{Member of Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines}
+    \end{itemize}
+}
+#+END_EXPORT

@@ -1,0 +1,136 @@
+#+TITLE: Programming Language Tinkerer $\cdotp$ Software Developer
+#+SETUPFILE: _setup.org 
+
+* Objective
+
+#+BEGIN_EXPORT latex
+\cvline{}{Seeking a position working on the implementation of a compiler,
+interpreter, or tooling to verify the correctness and safety of
+software.}
+#+END_EXPORT
+
+* Education
+
+#+BEGIN_EXPORT latex
+\cventry{2019 -- 2021}{M.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+}
+\cventry{2016 -- 2020}{B.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+    \begin{itemize}
+    \item{GPA -- 3.79, Dean's List since Fall 2016.}
+    \item{Member of Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines}
+    \end{itemize}
+}
+#+END_EXPORT
+
+* Work Experience
+
+#+BEGIN_EXPORT latex
+\cventry{5/2018 -- 8/2018 5/2019 -- 8/2019}{Software Development Intern}{Unisys}{Blue Bell, PA}{}{
+  \begin{itemize}
+  \item{Assisted in developing a chatbot to automate common IT
+    helpdesk tasks.}
+  \item{Worked on a telemetry system for virtual machines to send
+    system information to monitoring servers.}
+  \item{Developed a tool for parsing changelogs written as Markdown
+    files and converting them to JSON objects in order to generate
+    release notes.}
+  \item{Used Agile practices, such as regular Scrum meetings and used
+    Visual Studio Team Services to track tasks, features, bugs and
+    releases.}
+  \item{Practiced Test Driven Devlopment by using tests to verify
+    correctness and writing tests before code.}
+  \end{itemize}
+}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\cventry{1/2019 -- 5/2019}{Teaching Assistant, \textit{Programming Languages}}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+   \begin{itemize}
+   \item{Assisted in teaching students about the fundamentals of
+     implementing a programming language, such as the lambda calculus,
+     interpreters, manipulating abstract syntax trees, and typing
+     rules.}
+   \item{Aided students in implementing several interpreters and a
+     type checker in OCaml.}
+   \item{Helped the professor in developing assignments to teach
+     different aspects of the language, as well as extend existing
+     components such as lexer and parser.}
+   \end{itemize}
+}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\cventry{8/2018 -- 12/2018}{Teaching Assistant, \textit{Automata \& Computation}}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+  \begin{itemize}
+  \item{Aided in teaching students about important theoretical
+    computer science concepts, such as finite state machines,
+    grammars, and computational complexity.}
+  \item{Held weekly office hours and periodic reviews.}
+  \item{Graded and designed assignments.}
+  \end{itemize}
+}
+#+END_EXPORT
+
+* Relevant Course Work
+
+#+BEGIN_EXPORT latex
+\cventry{Spring 2019}{Formal Modeling \& Analysis}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+   \begin{itemize}
+   \item{Learned how to use abstractions to design and formally verify
+     software.}
+   \item{Used verification tools and languages such as Alloy, Dafny,
+     and Proverif.}
+   \item{Formally verified several algorithms using Liquid Haskell, an
+     extension to Haskell which uses refinement types to place
+     constraints on values to use the type system as a means of verification.}
+   \end{itemize}
+}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\cventry{Spring 2018}{Type Systems for Programming Languages}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+   \begin{itemize}
+   \item{Learned the core concepts of designing and implementing a
+     type system.}
+   \item{Implemented a type inference engine from scratch.}
+   \item{Researched novel concepts from F\#'s type system for final
+     project and presentation.}
+   \end{itemize}
+}
+#+END_EXPORT
+
+# * Projects
+
+# #+BEGIN_EXPORT latex
+# \cventry{2019}{dbus-to-eieio}{}{}{}{
+#    \begin{itemize}
+#    \item{Developed tool to autogenerate Emacs Lisp classes from Dbus XML introspection data.}
+#    \end{itemize}
+# }
+# #+END_EXPORT
+
+* Skills
+
+{{{cvitem(Languages, Python\, OCaml\, C++\, C\#\, Haskell\, C\, Erlang\, F\#\, Clojure\, Common Lisp\, Emacs Lisp)}}}
+{{{cvitem(Verification Tools, Alloy\, Liquid Haskell\, Dafny)}}} 
+
+* setup                                                            :noexport:
+
+#+NAME: startup
+#+BEGIN_SRC emacs-lisp
+  (require 'ox-latex)
+
+  (add-to-list 'org-latex-classes 
+			   '("moderncv" "\\documentclass[10pt,letterpaper,roman]{moderncv}"
+				 ("\\section{%s}" . "\\section*{%s}")))
+#+END_SRC
+
+#+RESULTS: startup
+| moderncv | \documentclass[10pt,letterpaper,roman]{moderncv} | (\section{%s} . \section*{%s}) |                                      |                                            |                                      |                                            |
+| article  | \documentclass[11pt]{article}                    | (\section{%s} . \section*{%s}) | (\subsection{%s} . \subsection*{%s}) | (\subsubsection{%s} . \subsubsection*{%s}) | (\paragraph{%s} . \paragraph*{%s})   | (\subparagraph{%s} . \subparagraph*{%s})   |
+| report   | \documentclass[11pt]{report}                     | (\part{%s} . \part*{%s})       | (\chapter{%s} . \chapter*{%s})       | (\section{%s} . \section*{%s})             | (\subsection{%s} . \subsection*{%s}) | (\subsubsection{%s} . \subsubsection*{%s}) |
+| book     | \documentclass[11pt]{book}                       | (\part{%s} . \part*{%s})       | (\chapter{%s} . \chapter*{%s})       | (\section{%s} . \section*{%s})             | (\subsection{%s} . \subsection*{%s}) | (\subsubsection{%s} . \subsubsection*{%s}) |
+
+# Local Variables:
+# eval: (progn (org-babel-goto-named-src-block "startup") (org-babel-execute-src-block) (outline-hide-sublevels 1))
+# End:
