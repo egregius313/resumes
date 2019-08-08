@@ -1,7 +1,6 @@
-#+TITLE: Cybersecurity Professional $\cdotp$ Software Developer
+#+TITLE: Cybersecurity Professional {{{dot}}} Software Developer
 #+SETUPFILE: _setup.org
 #+LaTeX_HEADER: \moderncvcolor{blue}
-
 
 * Objective
 

@@ -17,3 +17,10 @@
 #+MACRO: cvitem $\cvitem{$1}{$2}$
 #+MACRO: begin_cventry @@latex:\cventry{$1}{$2}{$3}{$4, $5}{}{@@
 #+MACRO: end_cventry @@latex:}@@
+#+MACRO: dot $\cdotp$
+
+
+#+LaTeX_HEADER: \newcommand{\objective}[1]{
+#+LaTeX_HEADER:   \section*{Objective}
+#+LaTeX_HEADER:   \cvline{}{#1}
+#+LaTeX_HEADER: }

@@ -115,22 +115,3 @@ software.}
 {{{cvitem(Verification Tools, Alloy\, Liquid Haskell\, Dafny)}}} 
 
 * setup                                                            :noexport:
-
-#+NAME: startup
-#+BEGIN_SRC emacs-lisp
-  (require 'ox-latex)
-
-  (add-to-list 'org-latex-classes 
-			   '("moderncv" "\\documentclass[10pt,letterpaper,roman]{moderncv}"
-				 ("\\section{%s}" . "\\section*{%s}")))
-#+END_SRC
-
-#+RESULTS: startup
-| moderncv | \documentclass[10pt,letterpaper,roman]{moderncv} | (\section{%s} . \section*{%s}) |                                      |                                            |                                      |                                            |
-| article  | \documentclass[11pt]{article}                    | (\section{%s} . \section*{%s}) | (\subsection{%s} . \subsection*{%s}) | (\subsubsection{%s} . \subsubsection*{%s}) | (\paragraph{%s} . \paragraph*{%s})   | (\subparagraph{%s} . \subparagraph*{%s})   |
-| report   | \documentclass[11pt]{report}                     | (\part{%s} . \part*{%s})       | (\chapter{%s} . \chapter*{%s})       | (\section{%s} . \section*{%s})             | (\subsection{%s} . \subsection*{%s}) | (\subsubsection{%s} . \subsubsection*{%s}) |
-| book     | \documentclass[11pt]{book}                       | (\part{%s} . \part*{%s})       | (\chapter{%s} . \chapter*{%s})       | (\section{%s} . \section*{%s})             | (\subsection{%s} . \subsection*{%s}) | (\subsubsection{%s} . \subsubsection*{%s}) |
-
-# Local Variables:
-# eval: (progn (org-babel-goto-named-src-block "startup") (org-babel-execute-src-block) (outline-hide-sublevels 1))
-# End:
